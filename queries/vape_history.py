@@ -1,10 +1,10 @@
+from backend.db_conn import connect_to_db
+import psycopg2
+from psycopg2.extras import RealDictCursor
+
 #--add rollback especially on save history
 def save_history(user_id, vape_id, nicotine_concentration_mg_per_ml, total_nicotine_inhaled, air_inhaled, date):
     try:
-        from backend.db_conn import connect_to_db
-        import psycopg2
-
-
         conn = connect_to_db()
         cursor = conn.cursor()
         #query to add vape histoy 
@@ -31,12 +31,8 @@ def save_history(user_id, vape_id, nicotine_concentration_mg_per_ml, total_nicot
 
 def get_all_history_data() -> dict:
     try:
-        from backend.db_conn import connect_to_db
-        import psycopg2
-        from psycopg2.extras import RealDictCursor
 
         conn=connect_to_db()
-        print('yesss')
         cursor = conn.cursor(cursor_factory=RealDictCursor)
 
         cursor.execute("""
