@@ -38,7 +38,7 @@ def add():
     save = save_history(
         user_id, vape_id,
         nicotine_concentration_mg_per_ml,
-        float(total_nicotine_inhaled), air_inhaled, date
+        total_nicotine_inhaled, air_inhaled, date
     )
 
     if save != 'success':

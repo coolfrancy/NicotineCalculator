@@ -14,7 +14,7 @@ def nicotine_calculation(air_inhaled, nicotine_concentration):
     # Get predictions
     score = model.predict(new_data)
 
-    return score[0]
+    return float(score[0])
 
 if __name__ == "__main__":
     nicotine_estimate = nicotine_calculation(0.5, 4)
