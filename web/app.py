@@ -33,15 +33,12 @@ def add():
     # Calculate total nicotine inhaled
     total_nicotine_inhaled = nicotine_calculation(air_inhaled, nicotine_concentration_mg_per_ml)
 
-    # Check for calculation failure
-    if isinstance(total_nicotine_inhaled, str) and 'fail' in total_nicotine_inhaled.lower():
-        abort(400, description=total_nicotine_inhaled)
 
     # Save the data to vape history
     save = save_history(
         user_id, vape_id,
         nicotine_concentration_mg_per_ml,
-        total_nicotine_inhaled, air_inhaled, date
+        float(total_nicotine_inhaled), air_inhaled, date
     )
 
     if save != 'success':
