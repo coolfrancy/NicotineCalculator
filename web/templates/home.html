@@ -1,0 +1,38 @@
+{%extends 'base.html'%}
+
+{%block head%}
+{%endblock%}
+
+{%block body%}
+    {% if stored_data %}
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Vape Name</th>
+                    <th>Vape Type</th>
+                    <th>Air Inhaled</th>
+                    <th>Nicotine Concentration</th>
+                    <th>Total Nicotine Inhaled</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for data in stored_data %}
+                    <tr>
+                        <td>{{ data.first_name }}</td>
+                        <td>{{ data.last_name }}</td>
+                        <td>{{ data.vape_name }}</td>
+                        <td>{{ data.type }}</td>
+                        <td>{{ data.air_inhaled }}</td>
+                        <td>{{ data.nicotine_concentration_mg_per_ml }}</td>
+                        <td>{{ data.total_nicotine_inhaled }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+    {% else %}
+        <p>no data yet</p>
+    {% endif %}
+{%endblock%}
