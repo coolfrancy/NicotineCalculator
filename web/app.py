@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify, abort
-from nicotine_calculator.model import nicotine_calculation
+from nicotine_calculator.calculator import nicotine_calculation
 from queries.vape_history import get_all_history_data, save_history
 
 
