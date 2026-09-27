@@ -17,7 +17,7 @@ def add():
     r_data = request.get_json(silent=True)
     print(f'Got information: {r_data}' )
 
-    required_keys = ['nicotine_concentration_mg_per_ml', 'vape_id', 'user_id', 'date', 'air_inhaled']
+    required_keys = ['nicotine_concentration_mg_per_ml', 'vape_id', 'user_id', 'date', 'air_inhaled', "temperature_celsius"]
 
     # Check that the request has all the required information
     for key in required_keys:
@@ -25,13 +25,14 @@ def add():
             abort(400, description=f"Missing required parameter: {key}")
 
     air_inhaled = r_data.get('air_inhaled')
+    temperature_celsius = r_data.get('temperature_celsius')
     user_id = r_data.get('user_id')
     vape_id = r_data.get('vape_id')
     nicotine_concentration_mg_per_ml = r_data.get('nicotine_concentration_mg_per_ml')
     date = r_data.get('date')
 
     # Calculate total nicotine inhaled
-    total_nicotine_inhaled = nicotine_calculation(air_inhaled, nicotine_concentration_mg_per_ml)
+    total_nicotine_inhaled = nicotine_calculation(air_inhaled, temperature_celsius, nicotine_concentration_mg_per_ml)
 
 
     # Save the data to vape history

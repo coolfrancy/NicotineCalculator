@@ -1,111 +1,111 @@
-First Name,Last Name,Vape Name,Vape Type,Air Inhaled,Nicotine Concentration,Target
-Sarah,Martinez,juul,pod,2.45,14
-Marcus,Thompson,smok,tank,4.12,6,24.72
-Emma,Chen,voopoo,mod,3.89,12,46.68
-James,Robinson,geek vape,tank,2.34,18,42.12
-Olivia,Jackson,aspire,pod,1.67,20,33.4
-David,White,vaporesso,mod,5.23,8,41.84
-Jessica,Harris,smok,tank,3.56,14,49.84
-Michael,Martin,juul,pod,0.98,14,13.72
-Amanda,Garcia,voopoo,pod,2.71,16,43.36
-Christopher,Rodriguez,lost mary,disposable,1.45,50,72.5
-Sarah,Lee,elf bar,disposable,1.89,20,37.8
-Daniel,Wilson,vaporesso,tank,4.01,10,40.1
-Megan,Anderson,smok,mod,3.45,12,41.4
-Joshua,Taylor,geek vape,pod,2.12,18,38.16
-Nicole,Thomas,aspire,tank,5.67,8,45.36
-Ryan,Moore,juul,pod,1.34,14,18.76
-Ashley,Jackson,voopoo,mod,4.23,6,25.30
-Brandon,Martin,lost mary,disposable,2.88,50,144
-Kayla,Lee,elf bar,disposable,1.56,20,31.2
-Kevin,Harris,vaporesso,mod,3.78,12,45.32
-Marcus,Thompson,smok,tank,4.12,6,24.72
-Emma,Chen,voopoo,mod,3.89,12,46.68
-James,Robinson,geek vape,tank,2.34,18,42.12
-Olivia,Jackson,aspire,pod,1.67,20,33.4
-David,White,vaporesso,mod,5.23,8,41.84
-Jessica,Harris,smok,tank,3.56,14,49.84
-Michael,Martin,juul,pod,0.98,14,13.72
-Amanda,Garcia,voopoo,pod,2.71,16,43.36
-Christopher,Rodriguez,lost mary,disposable,1.45,50,72.5
-Sarah,Lee,elf bar,disposable,1.89,20,37.8
-Daniel,Wilson,vaporesso,tank,4.01,10,40.1
-Megan,Anderson,smok,mod,3.45,12,41.4
-Joshua,Taylor,geek vape,pod,2.12,18,38.16
-Nicole,Thomas,aspire,tank,5.67,8,45.36
-Ryan,Moore,juul,pod,1.34,14,18.76
-Ashley,Jackson,voopoo,mod,4.23,6,25.38
-Brandon,Martin,lost mary,disposable,2.88,50,144
-Kayla,Lee,elf bar,disposable,1.56,20,31.2
-Kevin,Harris,vaporesso,mod,3.78,12,45.36
-Lauren,Clark,smok,pod,2.67,14,37.38
-Tyler,Lewis,voopoo,tank,4.45,8,35.6
-Victoria,Walker,juul,pod,1.23,20,24.6
-Alexander,Hall,geek vape,mod,3.34,10,33.4
-Sophia,Young,aspire,disposable,2.89,50,144.5
-Benjamin,Hernandez,vaporesso,pod,1.78,16,28.48
-Charlotte,King,lost mary,tank,4.56,18,82.08
-Mason,Wright,smok,mod,3.12,12,37.44
-Amelia,Lopez,elf bar,disposable,1.45,20,29
-Ethan,Hill,voopoo,pod,2.34,14,32.76
-Harper,Scott,juul,tank,5.01,6,30.06
-Evelyn,Green,aspire,mod,2.67,12,32.04
-Lucas,Adams,vaporesso,tank,4.23,10,42.3
-Abigail,Nelson,geek vape,pod,1.89,18,34.02
-Michael,Carter,smok,disposable,3.45,50,172.5
-Ella,Mitchell,voopoo,mod,2.78,8,22.24
-Logan,Perez,elf bar,pod,1.56,20,31.2
-Scarlett,Roberts,lost mary,tank,4.12,14,57.68
-Jackson,Phillips,juul,disposable,2.34,50,117
-Aria,Campbell,aspire,pod,3.67,14,51.38
-Aiden,Parker,vaporesso,mod,5.12,6,30.72
-Mia,Evans,smok,tank,2.89,16,46.24
-Lucas,Edwards,voopoo,pod,1.45,18,26.1
-Chloe,Collins,geek vape,mod,4.01,10,40.1
-Oliver,Reyes,elf bar,disposable,2.67,50,133.5
-Isabella,Stewart,juul,tank,3.78,12,45.36
-Mason,Morris,lost mary,pod,1.23,20,24.6
-Emma,Rogers,aspire,mod,4.45,8,35.6
-James,Cook,vaporesso,tank,2.34,14,32.76
-Ava,Morgan,smok,pod,3.89,12,46.68
-Benjamin,Peterson,voopoo,mod,1.67,18,30.06
-Charlotte,Cooper,geek vape,pod,5.23,6,31.38
-Amelia,Richardson,elf bar,disposable,2.71,50,135.5
-Ethan,Cox,juul,tank,0.98,20,19.6
-Harper,Howard,aspire,mod,4.12,10,41.2
-Logan,Ward,vaporesso,pod,3.56,14,49.84
-Scarlett,Torres,lost mary,tank,2.89,16,46.24
-Jackson,Peterson,smok,disposable,1.45,50,72.5
-Aria,Gray,voopoo,pod,2.45,18,44.1
-Aiden,Ramirez,elf bar,mod,4.23,8,33.84
-Mia,James,juul,tank,1.89,20,37.8
-Lucas,Watson,aspire,pod,3.45,12,41.4
-Chloe,Brooks,geek vape,mod,2.12,14,29.68
-Oliver,Chavez,vaporesso,tank,4.01,10,40.1
-Isabella,Bennett,smok,pod,5.67,6,34.02
-Mason,Salazar,lost mary,disposable,1.34,50,67
-Emma,Castle,voopoo,mod,2.78,18,50.04
-James,Vargas,elf bar,pod,3.34,14,46.76
-Ava,Snyder,juul,tank,1.23,20,24.6
-Benjamin,Cole,aspire,mod,4.45,8,35.6
-Charlotte,Bartlett,vaporesso,pod,2.67,16,42.72
-Amelia,Garrett,geek vape,tank,3.89,12,46.68
-Ethan,Barton,smok,disposable,2.34,50,117
-Harper,Soto,voopoo,mod,5.12,6,30.72
-Logan,Nolan,lost mary,pod,1.67,18,30.06
-Scarlett,Flood,elf bar,tank,4.23,10,42.3
-Jackson,Shaw,juul,pod,2.89,14,40.46
-Aria,Graves,aspire,mod,1.45,20,29
-Aiden,Dorsey,vaporesso,tank,4.01,8,32.08
-Mia,Mccarty,smok,pod,3.78,12,45.36
-Lucas,Sawyer,geek vape,disposable,2.12,50,106
-Chloe,Judge,voopoo,tank,4.56,6,27.36
-Oliver,Hahn,elf bar,mod,1.89,18,34.02
-Isabella,Underwood,juul,pod,3.12,14,43.68
-Mason,Yates,lost mary,tank,2.45,20,49
-Emma,Spikes,aspire,disposable,5.01,50,250.5
-James,Shumate,vaporesso,mod,2.34,8,18.72
-Ava,Sorrells,smok,pod,3.67,16,58.72
-Benjamin,Steele,voopoo,tank,4.12,10,41.2
-Charlotte,Stringfield,geek vape,pod,1.56,18,28.08
-Amelia,Sunley,elf bar,mod,2.78,14,38.92
+First Name,Last Name,Vape Name,Vape Type,Air Inhaled,Nicotine Concentration,Target,Temperature Celsius
+Sarah,Martinez,juul,pod,2.45,14,,237.45
+Marcus,Thompson,smok,tank,4.12,6,24.72,295.07
+Emma,Chen,voopoo,mod,3.89,12,46.68,273.2
+James,Robinson,geek vape,tank,2.34,18,42.12,259.87
+Olivia,Jackson,aspire,pod,1.67,20,33.4,215.6
+David,White,vaporesso,mod,5.23,8,41.84,215.6
+Jessica,Harris,smok,tank,3.56,14,49.84,205.81
+Michael,Martin,juul,pod,0.98,14,13.72,286.62
+Amanda,Garcia,voopoo,pod,2.71,16,43.36,260.11
+Christopher,Rodriguez,lost mary,disposable,1.45,50,72.5,270.81
+Sarah,Lee,elf bar,disposable,1.89,20,37.8,202.06
+Daniel,Wilson,vaporesso,tank,4.01,10,40.1,296.99
+Megan,Anderson,smok,mod,3.45,12,41.4,283.24
+Joshua,Taylor,geek vape,pod,2.12,18,38.16,221.23
+Nicole,Thomas,aspire,tank,5.67,8,45.36,218.18
+Ryan,Moore,juul,pod,1.34,14,18.76,218.34
+Ashley,Jackson,voopoo,mod,4.23,6,25.3,230.42
+Brandon,Martin,lost mary,disposable,2.88,50,144.0,252.48
+Kayla,Lee,elf bar,disposable,1.56,20,31.2,243.19
+Kevin,Harris,vaporesso,mod,3.78,12,45.32,229.12
+Marcus,Thompson,smok,tank,4.12,6,24.72,261.19
+Emma,Chen,voopoo,mod,3.89,12,46.68,213.95
+James,Robinson,geek vape,tank,2.34,18,42.12,229.21
+Olivia,Jackson,aspire,pod,1.67,20,33.4,236.64
+David,White,vaporesso,mod,5.23,8,41.84,245.61
+Jessica,Harris,smok,tank,3.56,14,49.84,278.52
+Michael,Martin,juul,pod,0.98,14,13.72,219.97
+Amanda,Garcia,voopoo,pod,2.71,16,43.36,251.42
+Christopher,Rodriguez,lost mary,disposable,1.45,50,72.5,259.24
+Sarah,Lee,elf bar,disposable,1.89,20,37.8,204.65
+Daniel,Wilson,vaporesso,tank,4.01,10,40.1,260.75
+Megan,Anderson,smok,mod,3.45,12,41.4,217.05
+Joshua,Taylor,geek vape,pod,2.12,18,38.16,206.51
+Nicole,Thomas,aspire,tank,5.67,8,45.36,294.89
+Ryan,Moore,juul,pod,1.34,14,18.76,296.56
+Ashley,Jackson,voopoo,mod,4.23,6,25.38,280.84
+Brandon,Martin,lost mary,disposable,2.88,50,144.0,230.46
+Kayla,Lee,elf bar,disposable,1.56,20,31.2,209.77
+Kevin,Harris,vaporesso,mod,3.78,12,45.36,268.42
+Lauren,Clark,smok,pod,2.67,14,37.38,244.02
+Tyler,Lewis,voopoo,tank,4.45,8,35.6,212.2
+Victoria,Walker,juul,pod,1.23,20,24.6,249.52
+Alexander,Hall,geek vape,mod,3.34,10,33.4,203.44
+Sophia,Young,aspire,disposable,2.89,50,144.5,290.93
+Benjamin,Hernandez,vaporesso,pod,1.78,16,28.48,225.88
+Charlotte,King,lost mary,tank,4.56,18,82.08,266.25
+Mason,Wright,smok,mod,3.12,12,37.44,231.17
+Amelia,Lopez,elf bar,disposable,1.45,20,29.0,252.01
+Ethan,Hill,voopoo,pod,2.34,14,32.76,254.67
+Harper,Scott,juul,tank,5.01,6,30.06,218.49
+Evelyn,Green,aspire,mod,2.67,12,32.04,296.96
+Lucas,Adams,vaporesso,tank,4.23,10,42.3,277.51
+Abigail,Nelson,geek vape,pod,1.89,18,34.02,293.95
+Michael,Carter,smok,disposable,3.45,50,172.5,289.48
+Ella,Mitchell,voopoo,mod,2.78,8,22.24,259.79
+Logan,Perez,elf bar,pod,1.56,20,31.2,292.19
+Scarlett,Roberts,lost mary,tank,4.12,14,57.68,208.85
+Jackson,Phillips,juul,disposable,2.34,50,117.0,219.6
+Aria,Campbell,aspire,pod,3.67,14,51.38,204.52
+Aiden,Parker,vaporesso,mod,5.12,6,30.72,232.53
+Mia,Evans,smok,tank,2.89,16,46.24,238.87
+Lucas,Edwards,voopoo,pod,1.45,18,26.1,227.13
+Chloe,Collins,geek vape,mod,4.01,10,40.1,282.87
+Oliver,Reyes,elf bar,disposable,2.67,50,133.5,235.68
+Isabella,Stewart,juul,tank,3.78,12,45.36,228.09
+Mason,Morris,lost mary,pod,1.23,20,24.6,254.27
+Emma,Rogers,aspire,mod,4.45,8,35.6,214.09
+James,Cook,vaporesso,tank,2.34,14,32.76,280.22
+Ava,Morgan,smok,pod,3.89,12,46.68,207.46
+Benjamin,Peterson,voopoo,mod,1.67,18,30.06,298.69
+Charlotte,Cooper,geek vape,pod,5.23,6,31.38,277.22
+Amelia,Richardson,elf bar,disposable,2.71,50,135.5,219.87
+Ethan,Cox,juul,tank,0.98,20,19.6,200.55
+Harper,Howard,aspire,mod,4.12,10,41.2,281.55
+Logan,Ward,vaporesso,pod,3.56,14,49.84,270.69
+Scarlett,Torres,lost mary,tank,2.89,16,46.24,272.9
+Jackson,Peterson,smok,disposable,1.45,50,72.5,277.13
+Aria,Gray,voopoo,pod,2.45,18,44.1,207.4
+Aiden,Ramirez,elf bar,mod,4.23,8,33.84,235.85
+Mia,James,juul,tank,1.89,20,37.8,211.59
+Lucas,Watson,aspire,pod,3.45,12,41.4,286.31
+Chloe,Brooks,geek vape,mod,2.12,14,29.68,262.33
+Oliver,Chavez,vaporesso,tank,4.01,10,40.1,233.09
+Isabella,Bennett,smok,pod,5.67,6,34.02,206.36
+Mason,Salazar,lost mary,disposable,1.34,50,67.0,231.1
+Emma,Castle,voopoo,mod,2.78,18,50.04,232.52
+James,Vargas,elf bar,pod,3.34,14,46.76,272.96
+Ava,Snyder,juul,tank,1.23,20,24.6,263.76
+Benjamin,Cole,aspire,mod,4.45,8,35.6,288.72
+Charlotte,Bartlett,vaporesso,pod,2.67,16,42.72,247.22
+Amelia,Garrett,geek vape,tank,3.89,12,46.68,211.96
+Ethan,Barton,smok,disposable,2.34,50,117.0,271.32
+Harper,Soto,voopoo,mod,5.12,6,30.72,276.08
+Logan,Nolan,lost mary,pod,1.67,18,30.06,256.13
+Scarlett,Flood,elf bar,tank,4.23,10,42.3,277.1
+Jackson,Shaw,juul,pod,2.89,14,40.46,249.38
+Aria,Graves,aspire,mod,1.45,20,29.0,252.27
+Aiden,Dorsey,vaporesso,tank,4.01,8,32.08,242.75
+Mia,Mccarty,smok,pod,3.78,12,45.36,202.54
+Lucas,Sawyer,geek vape,disposable,2.12,50,106.0,210.79
+Chloe,Judge,voopoo,tank,4.56,6,27.36,203.14
+Oliver,Hahn,elf bar,mod,1.89,18,34.02,263.64
+Isabella,Underwood,juul,pod,3.12,14,43.68,231.44
+Mason,Yates,lost mary,tank,2.45,20,49.0,250.86
+Emma,Spikes,aspire,disposable,5.01,50,250.5,290.76
+James,Shumate,vaporesso,mod,2.34,8,18.72,224.93
+Ava,Sorrells,smok,pod,3.67,16,58.72,241.04
+Benjamin,Steele,voopoo,tank,4.12,10,41.2,275.56
+Charlotte,Stringfield,geek vape,pod,1.56,18,28.08,222.88
+Amelia,Sunley,elf bar,mod,2.78,14,38.92,207.7
