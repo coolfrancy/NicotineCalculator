@@ -62,6 +62,7 @@ SELECT
     vape_history.air_inhaled,
     vape_history.nicotine_concentration_mg_per_ml,
     vape_history.total_nicotine_inhaled,
+    vape_history.temperature,
     vape_history.date
 FROM users 
 JOIN vape_history ON users.id = vape_history.user_id
