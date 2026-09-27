@@ -1,6 +1,7 @@
-from flask import Flask, render_template, request, jsonify, abort
+from flask import Flask, render_template, request, jsonify, abort, redirect
 from nicotine_calculator.calculator import nicotine_calculation
 from queries.vape_history import get_all_history_data, save_history
+from datetime import datetime
 
 
 app = Flask(__name__)
@@ -10,6 +11,31 @@ def home():
     stored_data=get_all_history_data()
     return render_template('home.html', stored_data=stored_data)
 
+@app.route('/', methods=['GET', 'POST'])
+def home():
+    if request.method == 'POST':
+        # Extract form data
+        air_inhaled = float(request.form.get('air_inhaled'))
+        nicotine_concentration_mg_per_ml = float(request.form.get('nicotine_concentration_mg_per_ml'))
+        temperature_celsius = float(request.form.get('temperature'))
+        date = datetime.now()
+        
+        # Calculate total nicotine inhaled
+        total_nicotine_inhaled = nicotine_calculation(air_inhaled, temperature_celsius, nicotine_concentration_mg_per_ml)
+
+
+        # Save the data to vape history
+        save = save_history(
+            1, 1,
+            nicotine_concentration_mg_per_ml,
+            total_nicotine_inhaled, air_inhaled, date
+        )
+        
+        return redirect('/')
+    
+    # GET request - display the page
+    stored_data = stored_data=get_all_history_data()
+    return render_template('home.html', stored_data=stored_data)
 
 @app.route("/add", methods=['POST'])
 def add():

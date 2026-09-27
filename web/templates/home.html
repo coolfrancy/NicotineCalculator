@@ -4,6 +4,51 @@
 {%endblock%}
 
 {%block body%}
+    <div>
+        <h2>Add New Vape Session</h2>
+        <form method="POST" action="/">
+            <div>
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" required>
+            </div>
+
+            <div>
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" required>
+            </div>
+
+            <div>
+                <label for="vape_name">Vape Name:</label>
+                <input type="text" id="vape_name" name="vape_name" required>
+            </div>
+
+            <div>
+                <label for="vape_type">Vape Type:</label>
+                <input type="text" id="vape_type" name="vape_type" required>
+            </div>
+
+            <div>
+                <label for="air_inhaled">Air Inhaled (ml):</label>
+                <input type="number" id="air_inhaled" name="air_inhaled" step="0.01" required>
+            </div>
+
+            <div>
+                <label for="nicotine_concentration">Nicotine Concentration (mg/ml):</label>
+                <input type="number" id="nicotine_concentration" name="nicotine_concentration_mg_per_ml" step="0.01" required>
+            </div>
+
+            <div>
+                <label for="temperature">Temperature (°C):</label>
+                <input type="number" id="temperature" name="temperature" step="0.1" required>
+            </div>
+
+            <button type="submit">Calculate & Add Entry</button>
+        </form>
+    </div>
+
+    <hr>
+
+    <h2>Vape Sessions Data</h2>
     {% if stored_data %}
         <table border="1">
             <thead>
@@ -14,6 +59,7 @@
                     <th>Vape Type</th>
                     <th>Air Inhaled</th>
                     <th>Nicotine Concentration</th>
+                    <th>Temperature</th>
                     <th>Total Nicotine Inhaled</th>
                 </tr>
             </thead>
@@ -26,6 +72,7 @@
                         <td>{{ data.type }}</td>
                         <td>{{ data.air_inhaled }}</td>
                         <td>{{ data.nicotine_concentration_mg_per_ml }}</td>
+                        <td>{{ data.temperature }}</td>
                         <td>{{ data.total_nicotine_inhaled }}</td>
                     </tr>
                 {% endfor %}
