@@ -6,11 +6,6 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-@app.route('/')
-def home():
-    stored_data=get_all_history_data()
-    return render_template('home.html', stored_data=stored_data)
-
 @app.route('/', methods=['GET', 'POST'])
 def home():
     if request.method == 'POST':
