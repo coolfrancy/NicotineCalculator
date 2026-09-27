@@ -3,13 +3,13 @@ import psycopg2
 from psycopg2.extras import RealDictCursor
 
 #--add rollback especially on save history
-def save_history(user_id, vape_id, nicotine_concentration_mg_per_ml, total_nicotine_inhaled, air_inhaled, date):
+def save_history(user_id, vape_id, nicotine_concentration_mg_per_ml, total_nicotine_inhaled, air_inhaled, temperature, date):
     try:
         conn = connect_to_db()
         cursor = conn.cursor()
         #query to add vape histoy 
-        cursor.execute("""INSERT INTO vape_history (user_id, vape_id, nicotine_concentration_mg_per_ml, total_nicotine_inhaled, air_inhaled, date)
-                        VALUES (%s,%s,%s,%s,%s,%s)""", (user_id, vape_id, nicotine_concentration_mg_per_ml, total_nicotine_inhaled, air_inhaled, date))
+        cursor.execute("""INSERT INTO vape_history (user_id, vape_id, nicotine_concentration_mg_per_ml, total_nicotine_inhaled, air_inhaled, temperature, date)
+                        VALUES (%s,%s,%s,%s,%s,%s,%s)""", (user_id, vape_id, nicotine_concentration_mg_per_ml, total_nicotine_inhaled, air_inhaled, temperature, date))
                         
         conn.commit()
 

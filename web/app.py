@@ -23,7 +23,7 @@ def home():
         save_history(
             1, 1,
             nicotine_concentration_mg_per_ml,
-            total_nicotine_inhaled, air_inhaled, date
+            total_nicotine_inhaled, air_inhaled, temperature_celsius, date
         )
         
         return redirect('/')
