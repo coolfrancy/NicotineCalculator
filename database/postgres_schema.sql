@@ -49,6 +49,7 @@ CREATE TABLE vape_history (
     air_inhaled REAL,
     nicotine_concentration_mg_per_ml INTEGER,
     total_nicotine_inhaled REAL,
+    temperature REAL,
     date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -63,7 +64,8 @@ SELECT
     vape_history.nicotine_concentration_mg_per_ml,
     vape_history.total_nicotine_inhaled,
     vape_history.temperature,
-    vape_history.date
+    vape_history.date,
+    vape_history.id AS history_id
 FROM users 
 JOIN vape_history ON users.id = vape_history.user_id
 JOIN vapes ON vapes.id = vape_history.vape_id;

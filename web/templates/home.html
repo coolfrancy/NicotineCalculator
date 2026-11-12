@@ -227,6 +227,32 @@
         box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4);
     }
 
+    /* ROW EDIT FORM (Total Nicotine Inhaled) */
+    .row-edit-form {
+        display: flex;
+        gap: 8px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .row-edit-form input[type="number"] {
+        width: 110px;
+        padding: 8px 10px;
+        text-align: right;
+    }
+
+    .row-edit-form button.row-save-btn {
+        flex: none;
+        padding: 8px 14px;
+        font-size: 12px;
+        box-shadow: none;
+    }
+
+    .row-edit-form button.row-save-btn:hover {
+        transform: none;
+        box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4);
+    }
+
     /* RESPONSIVE DESIGN */
     @media (max-width: 768px) {
         .page-header h1 {
@@ -323,7 +349,14 @@
                                     <td>{{ data.air_inhaled }}</td>
                                     <td>{{ data.nicotine_concentration_mg_per_ml }}</td>
                                     <td>{{ data.temperature }}</td>
-                                    <td>{{ data.total_nicotine_inhaled }}</td>
+                                    <td>
+                                        <form class="row-edit-form" method="POST" action="/update_total/{{ data.history_id }}">
+                                            <input type="number" name="total_nicotine_inhaled" step="0.01"
+                                                   value="{{ data.total_nicotine_inhaled if data.total_nicotine_inhaled is not none else '' }}"
+                                                   placeholder="Enter mg" required>
+                                            <button type="submit" class="row-save-btn">Save</button>
+                                        </form>
+                                    </td>
                                 </tr>
                             {% endfor %}
                         </tbody>
@@ -363,7 +396,7 @@
                 </div>
 
                 <div class="button-group">
-                    <button type="submit">Calculate & Add Entry</button>
+                    <button type="submit">Add Entry</button>
                 </div>
             </form>
         </div>
